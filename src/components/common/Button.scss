@@ -1,0 +1,57 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/abstracts/mixins';
+
+.btn {
+  @include button-base;
+  @include focus-visible;
+
+  // Primary variant
+  &--primary {
+    @include button-primary;
+  }
+
+  // Secondary variant
+  &--secondary {
+    @include button-secondary;
+  }
+
+  // Outline variant
+  &--outline {
+    @include button-base;
+    background-color: transparent;
+    color: $color-primary;
+    border: 1px solid $color-primary;
+
+    &:hover:not(:disabled) {
+      background-color: rgba($color-primary, 0.05);
+    }
+  }
+
+  // Text variant
+  &--text {
+    @include button-base;
+    background-color: transparent;
+    color: $color-primary;
+    padding: $spacing-xs $spacing-sm;
+
+    &:hover:not(:disabled) {
+      background-color: rgba($color-primary, 0.05);
+    }
+  }
+
+  // Sizes
+  &--small {
+    padding: $spacing-xs $spacing-md;
+    font-size: $font-size-sm;
+  }
+
+  &--medium {
+    padding: $spacing-sm $spacing-lg;
+    font-size: $font-size-base;
+  }
+
+  &--large {
+    padding: $spacing-md $spacing-xl;
+    font-size: $font-size-lg;
+  }
+}

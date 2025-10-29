@@ -1,0 +1,46 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/abstracts/mixins';
+
+.card {
+  background-color: $color-bg-white;
+  border-radius: $border-radius-lg;
+  overflow: hidden;
+  transition: all $transition-base;
+
+  &--default {
+    box-shadow: $shadow-sm;
+  }
+
+  &--elevated {
+    box-shadow: $shadow-md;
+  }
+
+  &--hoverable {
+    cursor: pointer;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: $shadow-xl;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__content {
+    padding: $spacing-lg;
+  }
+
+  &__title {
+    margin-bottom: $spacing-sm;
+    color: $color-text-primary;
+  }
+
+  &__description {
+    color: $color-text-secondary;
+    margin-bottom: $spacing-md;
+  }
+}

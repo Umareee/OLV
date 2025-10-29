@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "name": "Arbequina – Extra Virgin Olive Oil",
+    "slug": "Arbequina",
+    "image": "../../assets/Arbequina – Extra Virgin Olive Oil.png",
+    "description": "Our signature blend with a balanced, fruity flavor and subtle peppery finish. Cold-pressed from hand-picked olives within 24 hours of harvest to preserve maximum flavor and nutritional value.",
+    "features": ["Cold-pressed", "Organic", "Award-winning"],
+    "additionalInfo": {
+      "origin": "Tuscany, Italy",
+      "acidity": "0.3%",
+      "harvest": "October 2024",
+      "storage": "Store in a cool, dark place"
+    },
+    "sizes": [
+      {
+        "size": "250ml",
+        "price": 14.99,
+        "image": "../../assets/Arbequina – Extra Virgin Olive Oil.png"
+      },
+      {
+        "size": "500ml",
+        "price": 24.99,
+        "image": "../../assets/Arbequina – Extra Virgin Olive Oil.png"
+      },
+      {
+        "size": "750ml",
+        "price": 34.99,
+        "image": "../../assets/Arbequina – Extra Virgin Olive Oil.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "LO Mini – Extra Virgin Olive Oil",
+    "slug": "lo-mini",
+    "image": "../../assets/LO Mini – Extra Virgin Olive Oil.png",
+    "description": "Limited edition from our oldest groves. Rich, complex flavor with notes of artichoke and almond. This exceptional oil is produced from century-old olive trees.",
+    "features": ["Single-estate", "Hand-selected", "Premium quality"],
+    "additionalInfo": {
+      "origin": "Puglia, Italy",
+      "acidity": "0.2%",
+      "harvest": "November 2024",
+      "storage": "Store in a cool, dark place"
+    },
+    "sizes": [
+      {
+        "size": "250ml",
+        "price": 19.99,
+        "image": "../../assets/LO Mini – Extra Virgin Olive Oil.png"
+      },
+      {
+        "size": "500ml",
+        "price": 34.99,
+        "image": "../../assets/LO Mini – Extra Virgin Olive Oil.png"
+      },
+      {
+        "size": "750ml",
+        "price": 49.99,
+        "image": "../../assets/LO Mini – Extra Virgin Olive Oil.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "ORO VERDE Extra Virgin Olive Oil",
+    "slug": "oro-verde",
+    "image": "../../assets/ORO VERDE Extra Virgin Olive Oil.png",
+    "description": "Certified organic with vibrant green color and fresh herbaceous notes. Produced using sustainable farming practices without pesticides or chemical fertilizers.",
+    "features": ["100% Organic", "Sustainable", "First cold press"],
+    "additionalInfo": {
+      "origin": "Andalusia, Spain",
+      "acidity": "0.4%",
+      "harvest": "October 2024",
+      "storage": "Store in a cool, dark place"
+    },
+    "sizes": [
+      {
+        "size": "250ml",
+        "price": 16.99,
+        "image": "../../assets/ORO VERDE Extra Virgin Olive Oil.png"
+      },
+      {
+        "size": "500ml",
+        "price": 29.99,
+        "image": "../../assets/ORO VERDE Extra Virgin Olive Oil.png"
+      },
+      {
+        "size": "750ml",
+        "price": 42.99,
+        "image": "../../assets/ORO VERDE Extra Virgin Olive Oil.png"
+      }
+    ]
+  }
+]

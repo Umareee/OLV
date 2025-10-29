@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Olive branch icon -->
+  <circle cx="50" cy="50" r="48" fill="#455727"/>
+  <path d="M35 50 Q40 40, 50 35 Q60 40, 65 50" stroke="#f3d9b1" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="38" cy="48" r="4" fill="#f3d9b1"/>
+  <circle cx="50" cy="43" r="4" fill="#f3d9b1"/>
+  <circle cx="62" cy="48" r="4" fill="#f3d9b1"/>
+  <path d="M50 35 L50 25" stroke="#f3d9b1" stroke-width="2" stroke-linecap="round"/>
+</svg>

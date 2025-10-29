@@ -1,0 +1,68 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/abstracts/mixins';
+
+.page-hero {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 0;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+
+  @include respond-to(md) {
+    margin-bottom: 80px;
+  }
+
+  @include respond-to(lg) {
+    margin-bottom: 100px;
+  }
+
+  // Circular bottom edge using clip-path
+  clip-path: ellipse(100% 100% at 50% 0%);
+
+  &__overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      135deg,
+      rgba($color-primary-dark, 0.85) 0%,
+      rgba($color-primary, 0.75) 100%
+    );
+    z-index: 1;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: $spacing-xl;
+  }
+
+  &__title {
+    font-family: $font-heading;
+    font-size: $font-size-3xl;
+    font-weight: $font-weight-bold;
+    color: $color-bg-white;
+    letter-spacing: -0.02em;
+    margin: 0;
+
+    @include respond-to(md) {
+      font-size: $font-size-4xl;
+    }
+
+    @include respond-to(lg) {
+      font-size: $font-size-5xl;
+    }
+  }
+}
