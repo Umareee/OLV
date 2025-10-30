@@ -10,6 +10,7 @@ const ProductCard = ({ product, index }) => {
 
   const handleSelectOptions = () => {
     navigate(`/product/${product.slug}`)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   // Get starting price from smallest size

@@ -59,8 +59,12 @@ const Header = () => {
     { label: 'Shop', id: 'shop' },
   ]
 
+  // Only use transparent navbar on home page
+  const isHomePage = location.pathname === '/'
+  const shouldBeScrolled = isScrolled || !isHomePage
+
   return (
-    <header className={`header ${isScrolled ? 'header--scrolled' : ''}`}>
+    <header className={`header ${shouldBeScrolled ? 'header--scrolled' : ''}`}>
       <a href="#main" className="skip-to-content">
         Skip to main content
       </a>
@@ -75,7 +79,7 @@ const Header = () => {
               aria-label="Go to homepage"
             >
               <img
-                src={isScrolled ? "/assets/olv-logo-2.png" : "/assets/olv-logo.png"}
+                src={shouldBeScrolled ? "/assets/olv-logo-2.png" : "/assets/olv-logo.png"}
                 alt="Premium Olive Oil"
                 className="header__logo-img"
               />

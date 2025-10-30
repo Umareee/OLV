@@ -1,10 +1,12 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useCart } from '../../context/CartContext'
 import Button from '../common/Button'
 import './CartSidebar.scss'
 
 const CartSidebar = () => {
+  const navigate = useNavigate()
   const {
     cartItems,
     isCartOpen,
@@ -14,6 +16,11 @@ const CartSidebar = () => {
     getTotalItems,
     getTotalPrice
   } = useCart()
+
+  const handleCheckout = () => {
+    closeCart()
+    navigate('/checkout')
+  }
 
   return (
     <AnimatePresence>
@@ -134,7 +141,7 @@ const CartSidebar = () => {
                   variant="primary"
                   size="large"
                   className="cart-sidebar__checkout"
-                  onClick={() => alert('Checkout functionality coming soon!')}
+                  onClick={handleCheckout}
                 >
                   Proceed to Checkout
                 </Button>
