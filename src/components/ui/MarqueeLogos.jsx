@@ -4,13 +4,13 @@ import './MarqueeLogos.scss'
 const MarqueeLogos = () => {
   // Certification and partner logos
   const items = [
-    { id: 1, type: 'text', content: 'Tested, Trusted & Certified!' },
-    { id: 2, type: 'logo', name: 'Certification Logo', image: '/assets/imgi_12_Fr.png' },
-    { id: 4, type: 'logo', name: 'Certification Logo', image: '/assets/imgi_13_Fra1.png' },
-    { id: 6, type: 'logo', name: 'Certification Logo', image: '/assets/imgi_14_Fr2.png' },
-    { id: 8, type: 'logo', name: 'Certification Logo', image: '/assets/imgi_15_Fr3.png' },
-    { id: 10, type: 'logo', name: 'Certification Logo', image: '/assets/imgi_16_Sindh_Food_AuthorityBW.png' },
-        { id: 9, type: 'text', content: 'Tested, Trusted & Certified!' },
+    { id: 1, type: 'text', content: 'Globally Awarded • Locally Proud!' },
+    { id: 2, type: 'logo', name: 'International Award Badge', image: '/assets/imgi_12_Fr.png' },
+    { id: 4, type: 'logo', name: 'Quality Certification', image: '/assets/imgi_13_Fra1.png' },
+    { id: 6, type: 'logo', name: 'Excellence Recognition', image: '/assets/imgi_14_Fr2.png' },
+    { id: 8, type: 'logo', name: 'Premium Standard', image: '/assets/imgi_15_Fr3.png' },
+    { id: 10, type: 'logo', name: 'Food Authority Certified', image: '/assets/imgi_16_Sindh_Food_AuthorityBW.png' },
+        { id: 9, type: 'text', content: 'Globally Awarded • Locally Proud!' },
   ]
 
   // Duplicate items for seamless loop

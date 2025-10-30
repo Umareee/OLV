@@ -12,49 +12,49 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      quote: "The finest olive oil I've ever tasted. Rich, complex, and absolutely delicious. It's transformed my cooking.",
-      author: "Sarah Mitchell",
-      role: "Chef & Food Blogger",
+      quote: "OLIVANZA has redefined my understanding of olive oil. The depth of flavor and quality is remarkable. This Pakistani gem deserves all its international accolades!",
+      author: "Ayesha Rahman",
+      role: "Executive Chef, Lahore",
       avatar: "https://i.pravatar.cc/150?img=1",
       rating: 5
     },
     {
       id: 2,
-      quote: "Exceptional quality and attention to detail. You can taste the care that goes into every bottle.",
-      author: "Marco Rossi",
-      role: "Restaurant Owner",
+      quote: "I'm proud to serve OLIVANZA at my restaurant. Customers immediately notice the difference. It's incredible that such world-class oil comes from Pakistan!",
+      author: "Hassan Ali",
+      role: "Restaurant Owner, Karachi",
       avatar: "https://i.pravatar.cc/150?img=12",
       rating: 5
     },
     {
       id: 3,
-      quote: "I appreciate the sustainable practices and traditional methods. Premium quality with a conscience.",
-      author: "Emma Thompson",
-      role: "Culinary Enthusiast",
+      quote: "As someone who values authenticity, OLIVANZA delivers on every front. Locally produced, globally recognized - exactly what Pakistan needs!",
+      author: "Zainab Khan",
+      role: "Food Journalist, Islamabad",
       avatar: "https://i.pravatar.cc/150?img=5",
       rating: 5
     },
     {
       id: 4,
-      quote: "Outstanding flavor that brings out the best in every dish. A staple in my kitchen now.",
-      author: "David Chen",
-      role: "Home Cook",
+      quote: "The flavor profile is extraordinary - fruity, peppery, perfectly balanced. OLIVANZA has become an essential part of my healthy cooking routine.",
+      author: "Imran Malik",
+      role: "Nutrition Expert",
       avatar: "https://i.pravatar.cc/150?img=33",
       rating: 5
     },
     {
       id: 5,
-      quote: "The perfect balance of flavor and quality. Every drop is worth it!",
-      author: "Lisa Anderson",
-      role: "Food Critic",
+      quote: "Witnessing Pakistan's agricultural excellence through OLIVANZA fills me with pride. The awards speak volumes about its superior quality!",
+      author: "Saima Farooq",
+      role: "Culinary Instructor",
       avatar: "https://i.pravatar.cc/150?img=9",
       rating: 5
     },
     {
       id: 6,
-      quote: "An essential ingredient in my Mediterranean cooking. Authentic and delicious.",
-      author: "Antonio Silva",
-      role: "Chef",
+      quote: "OLIVANZA rivals the finest international brands I've tasted. Supporting local while enjoying premium quality - it's a win-win!",
+      author: "Ahmed Raza",
+      role: "Hotel Chef, Multan",
       avatar: "https://i.pravatar.cc/150?img=15",
       rating: 5
     }
@@ -81,8 +81,8 @@ const Testimonials = () => {
       <Container>
         {/* Testimonials */}
         <div className="testimonials__header">
-          <span className="testimonials__label">What People Say</span>
-          <h2 className="testimonials__title">Trusted by Food Lovers</h2>
+          <span className="testimonials__label">Customer Experiences</span>
+          <h2 className="testimonials__title">Celebrated Nationwide</h2>
         </div>
 
         <div className="testimonials__carousel">

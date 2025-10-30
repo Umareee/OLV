@@ -33,7 +33,7 @@ const ContactUs = () => {
   return (
     <div className="contact-page">
       <PageHero
-        title="Get In Touch"
+        title="Connect with OLIVANZA"
         backgroundImage="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=1920&q=80"
       />
 
@@ -41,8 +41,8 @@ const ContactUs = () => {
         <Container>
           <div className="contact-page__intro">
             <p className="contact-page__description">
-              Have questions about our products, wholesale orders, or shipping?
-              We'd love to hear from you.
+              Questions about our award-winning olive oil, partnerships, or bulk orders?
+              The OLIVANZA team is here to assist you.
             </p>
           </div>
 
@@ -54,16 +54,16 @@ const ContactUs = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h3 className="contact-page__info-title">Contact Information</h3>
+              <h3 className="contact-page__info-title">Reach Out</h3>
 
               <div className="contact-page__details">
                 <div className="contact-page__detail">
                   <span className="contact-page__detail-icon">📍</span>
                   <div className="contact-page__detail-content">
-                    <strong className="contact-page__detail-title">Visit Us</strong>
+                    <strong className="contact-page__detail-title">Location</strong>
                     <p className="contact-page__detail-text">
-                      Mediterranean Grove Estate<br />
-                      Tuscany, Italy
+                      OLIVANZA Production Center<br />
+                      Pothohar Region, Pakistan
                     </p>
                   </div>
                 </div>
@@ -71,9 +71,9 @@ const ContactUs = () => {
                 <div className="contact-page__detail">
                   <span className="contact-page__detail-icon">📧</span>
                   <div className="contact-page__detail-content">
-                    <strong className="contact-page__detail-title">Email Us</strong>
+                    <strong className="contact-page__detail-title">Email</strong>
                     <p className="contact-page__detail-text">
-                      <a href="mailto:hello@premiumoliveoil.com">hello@premiumoliveoil.com</a>
+                      <a href="mailto:Syedabdullahshah149@gmail.com">Syedabdullahshah149@gmail.com</a>
                     </p>
                   </div>
                 </div>
@@ -81,19 +81,19 @@ const ContactUs = () => {
                 <div className="contact-page__detail">
                   <span className="contact-page__detail-icon">📞</span>
                   <div className="contact-page__detail-content">
-                    <strong className="contact-page__detail-title">Call Us</strong>
+                    <strong className="contact-page__detail-title">Phone</strong>
                     <p className="contact-page__detail-text">
-                      <a href="tel:+390123456789">+39 (0) 123 456 789</a>
+                      <a href="tel:+92512345678">+92 3128214950</a>
                     </p>
                   </div>
                 </div>
               </div>
 
               <div className="contact-page__hours">
-                <h4 className="contact-page__hours-title">Business Hours</h4>
-                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                <p>Saturday: 10:00 AM - 4:00 PM</p>
-                <p>Sunday: Closed</p>
+                <h4 className="contact-page__hours-title">Available Hours</h4>
+                <p>Monday - Saturday: 9:00 AM - 6:00 PM PKT</p>
+                <p>Sunday: 10:00 AM - 2:00 PM PKT</p>
+                <p>Closed on Public Holidays</p>
               </div>
             </motion.div>
 
@@ -104,12 +104,12 @@ const ContactUs = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <h3 className="contact-page__form-title">Send Us a Message</h3>
+              <h3 className="contact-page__form-title">Share Your Inquiry</h3>
 
               <form className="contact-page__form" onSubmit={handleSubmit}>
                 <div className="form-group">
                   <label htmlFor="name" className="form-label">
-                    Name *
+                    Full Name *
                   </label>
                   <input
                     type="text"
@@ -119,13 +119,13 @@ const ContactUs = () => {
                     onChange={handleChange}
                     className="form-input"
                     required
-                    placeholder="Your full name"
+                    placeholder="Enter your name"
                   />
                 </div>
 
                 <div className="form-group">
                   <label htmlFor="email" className="form-label">
-                    Email *
+                    Email Address *
                   </label>
                   <input
                     type="email"
@@ -135,13 +135,13 @@ const ContactUs = () => {
                     onChange={handleChange}
                     className="form-input"
                     required
-                    placeholder="your.email@example.com"
+                    placeholder="your@email.com"
                   />
                 </div>
 
                 <div className="form-group">
                   <label htmlFor="subject" className="form-label">
-                    Subject
+                    Topic
                   </label>
                   <input
                     type="text"
@@ -150,13 +150,13 @@ const ContactUs = () => {
                     value={formData.subject}
                     onChange={handleChange}
                     className="form-input"
-                    placeholder="How can we help?"
+                    placeholder="What's this regarding?"
                   />
                 </div>
 
                 <div className="form-group">
                   <label htmlFor="message" className="form-label">
-                    Message *
+                    Your Message *
                   </label>
                   <textarea
                     id="message"
@@ -166,13 +166,13 @@ const ContactUs = () => {
                     className="form-textarea"
                     rows="6"
                     required
-                    placeholder="Tell us what you'd like to know..."
+                    placeholder="Share your thoughts or questions..."
                   />
                 </div>
 
                 {isSubmitted && (
                   <div className="form-success">
-                    Thank you! We'll get back to you soon.
+                    Received! OLIVANZA will respond soon.
                   </div>
                 )}
 
@@ -182,7 +182,7 @@ const ContactUs = () => {
                   type="submit"
                   disabled={isSubmitted}
                 >
-                  {isSubmitted ? 'Message Sent!' : 'Send Message'}
+                  {isSubmitted ? 'Message Delivered!' : 'Submit Inquiry'}
                 </Button>
               </form>
             </motion.div>

@@ -1,94 +1,94 @@
 [
   {
     "id": 1,
-    "name": "Arbequina – Extra Virgin Olive Oil",
-    "slug": "Arbequina",
-    "image": "/assets/Arbequina – Extra Virgin Olive Oil.png",
-    "description": "Our signature blend with a balanced, fruity flavor and subtle peppery finish. Cold-pressed from hand-picked olives within 24 hours of harvest to preserve maximum flavor and nutritional value.",
-    "features": ["Cold-pressed", "Organic", "Award-winning"],
+    "name": "OLIVANZA Premium Reserve",
+    "slug": "premium-reserve",
+    "image": "/assets/olivinza-1.png",
+    "description": "Our flagship extra virgin olive oil, recognized with international gold medals. Harvested from Pakistan's finest olive orchards, this premium reserve offers a harmonious blend of fruity notes with a delicate peppery finish. A true celebration of Pakistani excellence.",
+    "features": ["International Gold Award", "Pakistani Grown", "First Cold Press"],
     "additionalInfo": {
-      "origin": "Tuscany, Italy",
-      "acidity": "0.3%",
-      "harvest": "October 2024",
-      "storage": "Store in a cool, dark place"
+      "origin": "Pothohar Region, Pakistan",
+      "acidity": "0.2%",
+      "harvest": "November 2024",
+      "storage": "Store in a cool, dark place away from direct sunlight"
     },
     "sizes": [
       {
         "size": "250ml",
-        "price": 14.99,
-        "image": "/assets/Arbequina – Extra Virgin Olive Oil.png"
+        "price": 24.99,
+        "image": "/assets/olivinza-1.png"
       },
       {
         "size": "500ml",
-        "price": 24.99,
-        "image": "/assets/Arbequina – Extra Virgin Olive Oil.png"
+        "price": 44.99,
+        "image": "/assets/olivinza-1.png"
       },
       {
         "size": "750ml",
-        "price": 34.99,
-        "image": "/assets/Arbequina – Extra Virgin Olive Oil.png"
+        "price": 64.99,
+        "image": "/assets/olivinza-1.png"
       }
     ]
   },
   {
     "id": 2,
-    "name": "LO Mini – Extra Virgin Olive Oil",
-    "slug": "lo-mini",
-    "image": "/assets/LO Mini – Extra Virgin Olive Oil.png",
-    "description": "Limited edition from our oldest groves. Rich, complex flavor with notes of artichoke and almond. This exceptional oil is produced from century-old olive trees.",
-    "features": ["Single-estate", "Hand-selected", "Premium quality"],
+    "name": "OLIVANZA Heritage Edition",
+    "slug": "heritage-edition",
+    "image": "/assets/olivinza-1.png",
+    "description": "A limited edition masterpiece showcasing Pakistan's rich agricultural heritage. Carefully selected from mature olive trees, this edition embodies the perfect balance between tradition and innovation. Each bottle tells the story of Pakistani craftsmanship on the world stage.",
+    "features": ["Limited Edition", "Globally Awarded", "Estate Bottled"],
     "additionalInfo": {
-      "origin": "Puglia, Italy",
-      "acidity": "0.2%",
-      "harvest": "November 2024",
-      "storage": "Store in a cool, dark place"
+      "origin": "Khyber Pakhtunkhwa, Pakistan",
+      "acidity": "0.18%",
+      "harvest": "October 2024",
+      "storage": "Keep refrigerated after opening for extended freshness"
     },
     "sizes": [
       {
         "size": "250ml",
-        "price": 19.99,
-        "image": "/assets/LO Mini – Extra Virgin Olive Oil.png"
+        "price": 29.99,
+        "image": "/assets/olivinza-1.png"
       },
       {
         "size": "500ml",
-        "price": 34.99,
-        "image": "/assets/LO Mini – Extra Virgin Olive Oil.png"
+        "price": 54.99,
+        "image": "/assets/olivinza-1.png"
       },
       {
         "size": "750ml",
-        "price": 49.99,
-        "image": "/assets/LO Mini – Extra Virgin Olive Oil.png"
+        "price": 79.99,
+        "image": "/assets/olivinza-1.png"
       }
     ]
   },
   {
     "id": 3,
-    "name": "ORO VERDE Extra Virgin Olive Oil",
-    "slug": "oro-verde",
-    "image": "/assets/ORO VERDE Extra Virgin Olive Oil.png",
-    "description": "Certified organic with vibrant green color and fresh herbaceous notes. Produced using sustainable farming practices without pesticides or chemical fertilizers.",
-    "features": ["100% Organic", "Sustainable", "First cold press"],
+    "name": "OLIVANZA Classic Selection",
+    "slug": "classic-selection",
+    "image": "/assets/olivinza-1.png",
+    "description": "Our signature blend capturing the essence of Pakistan's olive cultivation success story. With vibrant green hues and fresh, herbaceous notes, this classic selection delivers authentic flavor while supporting sustainable farming practices across Pakistani communities.",
+    "features": ["Sustainably Produced", "International Recognition", "Cold Extracted"],
     "additionalInfo": {
-      "origin": "Andalusia, Spain",
-      "acidity": "0.4%",
-      "harvest": "October 2024",
-      "storage": "Store in a cool, dark place"
+      "origin": "Punjab Province, Pakistan",
+      "acidity": "0.25%",
+      "harvest": "December 2024",
+      "storage": "Best consumed within 18 months of bottling date"
     },
     "sizes": [
       {
         "size": "250ml",
-        "price": 16.99,
-        "image": "/assets/ORO VERDE Extra Virgin Olive Oil.png"
+        "price": 19.99,
+        "image": "/assets/olivinza-1.png"
       },
       {
         "size": "500ml",
-        "price": 29.99,
-        "image": "/assets/ORO VERDE Extra Virgin Olive Oil.png"
+        "price": 36.99,
+        "image": "/assets/olivinza-1.png"
       },
       {
         "size": "750ml",
-        "price": 42.99,
-        "image": "/assets/ORO VERDE Extra Virgin Olive Oil.png"
+        "price": 52.99,
+        "image": "/assets/olivinza-1.png"
       }
     ]
   }

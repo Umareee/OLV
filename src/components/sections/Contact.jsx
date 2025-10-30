@@ -42,21 +42,21 @@ const Contact = () => {
             animate={isVisible ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6 }}
           >
-            <span className="contact__label">Get In Touch</span>
-            <h2 className="contact__title">Let's Talk About Premium Olive Oil</h2>
+            <span className="contact__label">Connect With Us</span>
+            <h2 className="contact__title">Join the OLIVANZA Journey</h2>
             <p className="contact__description">
-              Have questions about our products, wholesale orders, or shipping?
-              We'd love to hear from you.
+              Interested in our award-winning olive oil, bulk orders, or partnerships?
+              Reach out to discover Pakistani excellence.
             </p>
 
             <div className="contact__details">
               <div className="contact__detail">
                 <span className="contact__detail-icon">📍</span>
                 <div className="contact__detail-content">
-                  <strong className="contact__detail-title">Visit Us</strong>
+                  <strong className="contact__detail-title">Find Us</strong>
                   <p className="contact__detail-text">
-                    Mediterranean Grove Estate<br />
-                    Tuscany, Italy
+                    OLIVANZA Production Facility<br />
+                    Pothohar Region, Pakistan
                   </p>
                 </div>
               </div>
@@ -66,7 +66,7 @@ const Contact = () => {
                 <div className="contact__detail-content">
                   <strong className="contact__detail-title">Email Us</strong>
                   <p className="contact__detail-text">
-                    <a href="mailto:hello@premiumoliveoil.com">hello@premiumoliveoil.com</a>
+                    <a href="mailto:Syedabdullahshah149@gmail.com">Syedabdullahshah149@gmail.com</a>
                   </p>
                 </div>
               </div>
@@ -76,7 +76,7 @@ const Contact = () => {
                 <div className="contact__detail-content">
                   <strong className="contact__detail-title">Call Us</strong>
                   <p className="contact__detail-text">
-                    <a href="tel:+390123456789">+39 (0) 123 456 789</a>
+                    <a href="tel:+92512345678">+92 3128214950</a>
                   </p>
                 </div>
               </div>
@@ -156,7 +156,7 @@ const Contact = () => {
 
               {isSubmitted && (
                 <div className="form-success">
-                  Thank you! We'll get back to you soon.
+                  Thank you! The OLIVANZA team will respond shortly.
                 </div>
               )}
 
@@ -166,7 +166,7 @@ const Contact = () => {
                 type="submit"
                 disabled={isSubmitted}
               >
-                {isSubmitted ? 'Message Sent!' : 'Send Message'}
+                {isSubmitted ? 'Message Received!' : 'Get In Touch'}
               </Button>
             </form>
           </motion.div>

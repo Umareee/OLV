@@ -42,9 +42,9 @@ const Footer = () => {
         <div className="footer__main">
           {/* Brand Section */}
           <div className="footer__brand">
-            <h3 className="footer__logo">Premium Olive Oil</h3>
+            <h3 className="footer__logo">OLIVANZA</h3>
             <p className="footer__tagline">
-              From grove to bottle — crafted with care, delivered with excellence.
+              Globally Celebrated. Locally Crafted.
             </p>
             <div className="footer__social">
               {socialLinks.map((social) => (
@@ -133,7 +133,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="footer__bottom">
           <p className="footer__copyright">
-            &copy; {currentYear} Premium Olive Oil. All rights reserved.
+            &copy; {currentYear} OLIVANZA. All rights reserved.
           </p>
           <div className="footer__legal">
             <a href="#privacy" className="footer__legal-link">Privacy Policy</a>

@@ -55,7 +55,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            Olivanza — Where Nature Meets Global Recognition.
+            Pakistan's First Globally Award-Winning Olive Oil
           </motion.span>
 
           <motion.h1

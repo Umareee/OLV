@@ -92,7 +92,7 @@ const Checkout = () => {
     if (validateForm()) {
       // Here you would normally process the payment
       // For now, we'll just simulate success
-      alert('Order placed successfully!')
+      alert('Thank you for choosing OLIVANZA! Your order has been confirmed.')
       clearCart()
       navigate('/')
     }
@@ -108,9 +108,9 @@ const Checkout = () => {
       <div className="checkout-page">
         <Container>
           <div className="checkout-page__empty">
-            <h2>Your cart is empty</h2>
-            <p>Add some products to proceed to checkout</p>
-            <Button onClick={() => navigate('/shop')}>Continue Shopping</Button>
+            <h2>Your cart awaits OLIVANZA</h2>
+            <p>Discover Pakistan's award-winning olive oil collection</p>
+            <Button onClick={() => navigate('/shop')}>Explore Products</Button>
           </div>
         </Container>
       </div>

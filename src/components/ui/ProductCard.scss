@@ -21,11 +21,11 @@
   &__image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: transform $transition-slow;
 
     .product-card:hover & {
-      transform: scale(1.08);
+      transform: scale(1.05);
     }
   }
 

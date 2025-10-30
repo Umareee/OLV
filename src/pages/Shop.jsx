@@ -9,7 +9,7 @@ const Shop = () => {
   return (
     <div className="shop-page">
       <PageHero
-        title="Shop Our Collection"
+        title="OLIVANZA Collection"
         backgroundImage="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=1920&q=80"
       />
 
@@ -17,8 +17,8 @@ const Shop = () => {
         <Container>
           <div className="shop-page__intro">
             <p className="shop-page__description">
-              Discover our carefully curated selection of premium extra-virgin olive oils.
-              Each bottle represents our commitment to quality, tradition, and sustainable practices.
+              Explore Pakistan's first internationally award-winning extra virgin olive oil range.
+              Every bottle embodies our dedication to excellence and agricultural innovation.
             </p>
           </div>
 

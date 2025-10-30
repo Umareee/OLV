@@ -80,7 +80,7 @@ const Header = () => {
             >
               <img
                 src={shouldBeScrolled ? "/assets/olv-logo-2.png" : "/assets/olv-logo.png"}
-                alt="Premium Olive Oil"
+                alt="OLIVANZA"
                 className="header__logo-img"
               />
             </button>

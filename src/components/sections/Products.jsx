@@ -18,11 +18,11 @@ const Products = () => {
     <section className="products section section-dark" id="products">
       <Container>
         <div className="products__header">
-          <span className="products__label">Shop</span>
-          <h2 className="products__title">Premium Olive Oils</h2>
+          <span className="products__label">Explore OLIVANZA</span>
+          <h2 className="products__title">Award-Winning Excellence</h2>
           <p className="products__subtitle">
-            Discover our carefully curated selection of extra-virgin olive oils,
-            each bottle a testament to our commitment to quality and tradition.
+            Experience the taste of Pakistan's finest extra virgin olive oil collection,
+            internationally recognized for superior quality and authentic flavor.
           </p>
         </div>
 
@@ -38,7 +38,7 @@ const Products = () => {
             size="large"
             onClick={handleSeeAll}
           >
-            See All Products
+            View Full Collection
           </Button>
         </div>
       </Container>

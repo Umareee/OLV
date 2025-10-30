@@ -11,50 +11,50 @@ const Features = () => {
     {
       id: 1,
       image: '/assets/harvesting.jpeg',
-      title: 'Harvesting',
-      description: 'Our groves are cultivated using eco-friendly practices that protect the land for future generations.'
+      title: 'Selective Harvesting',
+      description: 'Premium olives handpicked at optimal ripeness from Pakistan\'s finest orchards, ensuring superior quality from the start.'
     },
     {
       id: 2,
       image: '/assets/washing.jpeg',
-      title: 'Washing',
-      description: 'Each olive is carefully picked by hand at peak ripeness to ensure optimal flavor and quality.'
+      title: 'Purification Process',
+      description: 'Thoroughly cleansed using advanced filtration systems to remove impurities while maintaining natural properties.'
     },
     {
       id: 3,
       image: '/assets/grinding.jpeg',
-      title: 'Grinding',
-      description: 'Processed within 24 hours using traditional cold-press methods to preserve natural antioxidants.'
+      title: 'Precision Milling',
+      description: 'State-of-the-art grinding technology transforms fresh olives into paste within hours of harvest, preserving vital nutrients.'
     },
     {
       id: 4,
       image: '/assets/malaxation.jpeg',
-      title: 'Malaxation',
-      description: 'Recognized internationally for exceptional quality, taste, and commitment to excellence.'
+      title: 'Controlled Mixing',
+      description: 'Carefully monitored malaxation at optimal temperatures releases oil droplets while protecting delicate flavor compounds.'
     },
     {
       id: 5,
       image: '/assets/extraction.jpeg',
-      title: 'Extraction',
-      description: 'Every batch is rigorously tested to ensure purity, authenticity, and superior nutritional value.'
+      title: 'Cold Extraction',
+      description: 'Revolutionary centrifugation method extracts pure oil at controlled temperatures, maintaining award-winning quality standards.'
     },
     {
       id: 6,
       image: '/assets/seperation.jpeg',
-      title: 'Separation',
-      description: 'Four generations of expertise in cultivating the finest Mediterranean olive oil.'
+      title: 'Natural Filtering',
+      description: 'Advanced separation techniques remove water and solids, yielding crystal-clear extra virgin olive oil.'
     },
     {
       id: 7,
       image: '/assets/storage.jpeg',
-      title: 'Storage',
-      description: 'Four generations of expertise in cultivating the finest Mediterranean olive oil.'
+      title: 'Protected Storage',
+      description: 'Stored in temperature-controlled stainless steel tanks under nitrogen blanket to preserve freshness and antioxidants.'
     },
     {
       id: 8,
       image: '/assets/transportation.jpeg',
-      title: 'Transportation',
-      description: 'Swiftly moved in controlled conditions to maintain freshness and prevent damage before reaching your doorstep.'
+      title: 'Secure Distribution',
+      description: 'Carefully transported in climate-controlled conditions, ensuring every bottle reaches you in perfect condition.'
     },
   ]
 
@@ -62,11 +62,11 @@ const Features = () => {
     <section className="features section section-light" id="features" ref={ref}>
       <Container>
         <div className="features__header">
-          <span className="features__label">Why Choose Us</span>
-          <h2 className="features__title">Quality You Can Trust</h2>
+          <span className="features__label">Our Production Journey</span>
+          <h2 className="features__title">From Orchard to Excellence</h2>
           <p className="features__subtitle">
-            From our groves to your table, every step is guided by our passion for
-            excellence and respect for tradition.
+            Witness the meticulous eight-stage process that transforms Pakistani olives
+            into internationally acclaimed extra virgin olive oil.
           </p>
         </div>
 
